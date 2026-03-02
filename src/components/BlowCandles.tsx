@@ -150,9 +150,9 @@ const BlowCandles = ({ onComplete }: BlowCandlesProps) => {
           {/* Cake layers */}
           <div className="w-64 md:w-80">
             {/* Top layer */}
-            <div className="h-6 md:h-8 rounded-t-2xl bg-accent border-x-2 border-t-2 border-border" />
+            <div className="h-6 md:h-8 rounded-t-2xl bg-secondary border-x-2 border-t-2 border-border" />
             {/* Frosting drip */}
-            <div className="h-3 bg-primary/30 rounded-b-lg mx-2" />
+            <div className="h-3 bg-orange-950 rounded-b-lg mx-2" />
             {/* Middle layer */}
             <div className="h-10 md:h-14 bg-secondary border-x-2 border-border flex items-center justify-center">
               <div className="flex gap-2">
@@ -161,9 +161,11 @@ const BlowCandles = ({ onComplete }: BlowCandlesProps) => {
                 ))}
               </div>
             </div>
+             {/* Frosting drip */}
+             <div className="h-3 bg-orange-950 rounded-b-lg mx-2" />
             {/* Bottom layer */}
-            <div className="h-12 md:h-16 rounded-b-2xl bg-accent border-x-2 border-b-2 border-border flex items-center justify-center">
-              <p className="font-script text-lg md:text-xl text-primary">Happy 20th!</p>
+            <div className="h-12 md:h-16 rounded-b-2xl bg-secondary border-x-2 border-b-2 border-border flex items-center justify-center">
+              <p className="font-script text-lg md:text-xl text-ellipsis">You're 20? hbd</p>
             </div>
           </div>
 

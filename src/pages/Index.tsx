@@ -55,7 +55,7 @@ const EnvelopeScreen = ({ onOpen }: { onOpen: () => void }) => (
         transition={{ duration: 1.5, repeat: Infinity }}
         className="absolute -top-3 -right-3 w-10 h-10 rounded-full bg-primary flex items-center justify-center shadow-lg"
       >
-        <Heart className="w-5 h-5 text-primary-foreground fill-primary-foreground" />
+        <p className="w-5 h-5 font-bold text-cyan-50 size-8 flex justify-center items-center">20</p> 
       </motion.div>
     </motion.div>
 
@@ -63,12 +63,15 @@ const EnvelopeScreen = ({ onOpen }: { onOpen: () => void }) => (
       <p className="font-script text-3xl md:text-4xl text-primary mb-2">
         You've got a surprise!
       </p>
+      <p className="font-script text-xl md:text-xl text-primary mb-2">
+      from khulan
+      </p>
       <motion.p
         animate={{ opacity: [0.5, 1, 0.5] }}
         transition={{ duration: 2, repeat: Infinity }}
         className="text-sm text-muted-foreground tracking-widest uppercase"
       >
-        Tap to open ✉️
+        Tap to open
       </motion.p>
     </div>
   </motion.div>
@@ -100,7 +103,7 @@ const BirthdayMessage = () => (
       className="mb-6"
     >
       <div className="w-24 h-24 rounded-full bg-accent flex items-center justify-center shadow-lg">
-        <Cake className="w-12 h-12 text-primary" />
+        <img src="https://ih1.redbubble.net/image.3494792996.2576/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="logo" className="w-full h-full object-cover" />
       </div>
     </motion.div>
 
@@ -176,7 +179,7 @@ const BirthdayMessage = () => (
 
     {/* Bouncing emojis */}
     <motion.div custom={4} variants={fadeUp} initial="hidden" animate="visible" className="mt-10 flex items-center gap-4">
-      {["🎂", "🎁", "🥳", "💐", "🎈"].map((emoji, i) => (
+      {["🎊", "✨", "🥂", "✨", "🎊"].map((emoji, i) => (
         <motion.span
           key={i}
           className="text-2xl md:text-3xl"
@@ -192,18 +195,6 @@ const BirthdayMessage = () => (
         </motion.span>
       ))}
     </motion.div>
-
-    <motion.p
-      custom={5}
-      variants={fadeUp}
-      initial="hidden"
-      animate="visible"
-      className="mt-8 text-sm text-muted-foreground tracking-widest uppercase"
-    >
-      Made with{" "}
-      <Heart className="inline w-3.5 h-3.5 text-primary fill-primary mx-1" />
-      just for you
-    </motion.p>
   </motion.div>
 );
 
