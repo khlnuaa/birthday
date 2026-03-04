@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import FloatingHearts from "@/components/FloatingHearts";
 import Sparkle from "@/components/Sparkle";
 import BlowCandles from "@/components/BlowCandles";
-import { Heart, Cake, Star, PartyPopper, Mail, MailOpen } from "lucide-react";
+import { Cake, Star, PartyPopper, Mail, MailOpen } from "lucide-react";
 
 const Index = () => {
   const [step, setStep] = useState<"envelope" | "candles" | "message">("envelope");
