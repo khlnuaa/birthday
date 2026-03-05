@@ -55,7 +55,7 @@ const EnvelopeScreen = ({ onOpen }: { onOpen: () => void }) => (
         transition={{ duration: 1.5, repeat: Infinity }}
         className="absolute -top-3 -right-3 w-10 h-10 rounded-full bg-primary flex items-center justify-center shadow-lg"
       >
-        <p className="w-5 h-5 font-bold text-cyan-50 size-8 flex justify-center items-center">20</p> 
+        <p className="w-5 h-5 font-bold text-cyan-50 size-8 flex justify-center items-center">20+</p> 
       </motion.div>
     </motion.div>
 
@@ -219,11 +219,11 @@ const BirthdayMessage = () => {
         <div className="rounded-2xl bg-card border border-border p-8 md:p-10 shadow-xl backdrop-blur-sm">
           
         <p className="text-base md:text-lg font-paragraph italic leading-relaxed text-muted-foreground text-center mb-6">
-        Hey birthday boy 🎉
-          </p>
+        Heyy🎉
+        </p>
 
           <p className="text-base md:text-lg font-paragraph italic leading-relaxed text-muted-foreground text-center mb-6">
-          It’s been a while since we’ve seen each other — I might be starting to forget your face a little 😂 but somehow 
+          It’s been a while since we’ve seen each other — I might be starting to forget your face a little 😂  but somehow 
           I never forget your birthday.  
           </p>
 
