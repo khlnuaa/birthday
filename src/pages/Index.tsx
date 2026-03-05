@@ -257,10 +257,9 @@ const BirthdayMessage = () => {
           </div>
 
           <p className="font-script text-2xl md:text-3xl text-primary text-center">
-            Wishing you all the best,
-          </p>
-          <p className="font-script text-xl md:text-2xl text-gold text-center mt-1">
-            today and always ✨
+          Cheers to all your wishes coming true          </p>
+          <p className="font-script text-xl md:text-2xl text-brown text-end mt-1">
+          ~ Kh ~
           </p>
         </div>
       </motion.div>
