@@ -169,7 +169,7 @@ const BirthdayMessage = () => {
       <motion.div custom={0.5} variants={fadeUp} initial="hidden" animate="visible" className="mb-4">
         <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-primary text-primary-foreground text-sm font-semibold tracking-wide uppercase">
           <PartyPopper className="w-4 h-4" />
-          March 6th
+          April 3rd
           <PartyPopper className="w-4 h-4" />
         </span>
       </motion.div>
